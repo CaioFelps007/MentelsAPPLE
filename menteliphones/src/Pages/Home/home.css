@@ -11,3 +11,39 @@
   display: flex;
   background: transparent;
 }
+
+.hero-imperdiveis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.promotion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-promotion {
+  display: flex;
+  width: 100%;
+  background-color: rgba(37, 37, 37, 0.747);
+  filter: drop-shadow(0, 0, 0.1);
+  border-radius: 15px;
+  height: 300px;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.iphonesdestack {
+  width: 20%;
+  height: 250px;
+  border-radius: 7px;
+  margin-top: 20px;
+  object-fit: cover; /* preenche o espaço sem deformar */
+  object-position: center;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
