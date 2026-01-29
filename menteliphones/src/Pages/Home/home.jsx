@@ -105,26 +105,6 @@ export default function Home() {
                 pós-venda. Chama no WhatsApp e eu te mando as opções do momento.
               </p>
 
-              <div className="ctaRow">
-                <a
-                  className="btn btnPrimary"
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaWhatsapp /> Falar no WhatsApp
-                </a>
-
-                <a
-                  className="btn btnGhost"
-                  href={INSTAGRAM_URL}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaInstagram /> Ver Instagram
-                </a>
-              </div>
-
               <div className="trustRow">
                 <div className="trustItem">
                   <MdVerified /> Procedência
@@ -137,7 +117,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
+            {/* 
             <div className="heroRight">
               <div className="heroCard">
                 <div className="heroCardTop">
@@ -171,7 +151,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
