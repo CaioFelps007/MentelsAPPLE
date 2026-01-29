@@ -17,15 +17,13 @@ body {
   color: #fff;
   background-color: black;
   font-family: "Inter", sans-serif;
-
-  margin-top: 50px;
 }
 
-main {
+/* main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0.3rem 2rem;
-}
+} */
 
 html {
   scroll-behavior: smooth;
