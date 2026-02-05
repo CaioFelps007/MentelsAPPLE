@@ -244,7 +244,6 @@ export default function Home() {
               <p className="muted">
                 Reputação é tudo. Aqui o negócio é transparente.
               </p>
-              <Stars count={5} />
             </div>
 
             <div className="gridTestimonials">

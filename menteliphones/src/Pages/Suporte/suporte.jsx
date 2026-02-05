@@ -5,7 +5,7 @@ function Suporte() {
   return (
     <>
       <NavHeader />
-      <main>
+      <main className="page">
         <section>Suporte</section>
       </main>
     </>

@@ -5,7 +5,7 @@ function Sobre() {
   return (
     <>
       <NavHeader />
-      <main>
+      <main className="page">
         <section>Sobre</section>
       </main>
     </>
