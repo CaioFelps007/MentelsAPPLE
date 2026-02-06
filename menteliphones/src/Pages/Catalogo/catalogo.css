@@ -30,6 +30,14 @@
   border-radius: 7px;
 }
 
+.iphonesCatalogos {
+  width: 100%;
+
+  height: auto;
+  padding: 20px;
+  border-radius: 7px;
+}
+
 .heroVendas {
   display: flex;
   align-items: center;
@@ -42,10 +50,8 @@
 
 .Iphones {
   width: 100%;
-  background-color: rgba(117, 191, 255, 0.411);
-  height: 300px;
   padding: 20px;
-  border-radius: 7px;
+  border-top: solid 1px rgba(255, 255, 255, 0.411);
 }
 
 .gridCardCatalogo {
@@ -80,13 +86,11 @@
 .cardText {
   padding: 15px;
   gap: 20px;
+  font-size: 1rem;
 }
 
 .cardText h5 {
   font-size: 1.2rem;
-}
-.cardText {
-  font-size: 1rem;
 }
 
 .faixa-scroll {
@@ -105,11 +109,61 @@
   margin-top: 10px;
 }
 
+.btnCard {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0.2;
+  transition:
+    opacity 0.5s ease,
+    background 0.3s ease;
+}
+
+.cardCatalogo:hover .btnCard {
+  opacity: 1;
+}
+
+.btnCard:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.badgeDois {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #ffb80379;
+  color: #ffffff;
+  font-size: 0.87rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 15px;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border: solid 1px rgba(255, 255, 255, 0.671);
+}
+
 @keyframes scrollFaixa {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 900px) {
+  .gridCardCatalogo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .gridCardCatalogo {
+    grid-template-columns: 1fr;
   }
 }
