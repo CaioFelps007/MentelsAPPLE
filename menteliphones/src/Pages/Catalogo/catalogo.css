@@ -166,4 +166,7 @@
   .gridCardCatalogo {
     grid-template-columns: 1fr;
   }
+  .centralizetext h2 {
+    text-align: center;
+  }
 }

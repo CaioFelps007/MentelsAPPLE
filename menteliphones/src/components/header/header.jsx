@@ -7,7 +7,7 @@ import logomentel from "../../images/logopimenta.jpeg";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdMenu, MdClose } from "react-icons/md";
 
-const WHATSAPP_NUMBER = "5519999999999"; // troca aqui
+const WHATSAPP_NUMBER = "5519999001725"; // troca aqui
 const WHATSAPP_TEXT = encodeURIComponent(
   "Oi! Quero ver os iPhones disponíveis 👀📱",
 );

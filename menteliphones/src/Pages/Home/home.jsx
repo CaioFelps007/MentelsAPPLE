@@ -17,13 +17,13 @@ import {
   MdLocalShipping,
 } from "react-icons/md";
 
-const WHATSAPP_NUMBER = "5519999999999"; // ex: 55 + DDD + número
+const WHATSAPP_NUMBER = "5519999001725"; // ex: 55 + DDD + número
 const WHATSAPP_TEXT = encodeURIComponent(
   "Oi! Quero ver os iPhones disponíveis 👀📱",
 );
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_TEXT}`;
 
-const INSTAGRAM_URL = "https://instagram.com/SEU_PERFIL_AQUI";
+const INSTAGRAM_URL = "https://www.instagram.com/iphones_pimentel/";
 
 const products = [
   {

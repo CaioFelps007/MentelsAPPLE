@@ -450,4 +450,8 @@ img {
   .heroPreviewImg {
     height: 110px;
   }
+  .brandTag {
+    font-size: 0.7rem;
+    margin-left: 10px;
+  }
 }
