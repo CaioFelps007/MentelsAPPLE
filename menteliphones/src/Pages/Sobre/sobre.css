@@ -1,0 +1,151 @@
+.containerSobre {
+  width: 85%;
+  max-width: 1300px;
+  padding: 100px 0;
+  width: min(var(--max), calc(100% - (var(--gutter) * 2)));
+  margin: 0 auto;
+}
+
+/* HERO */
+
+.heroSobre {
+  max-width: 850px;
+  margin-bottom: 140px;
+}
+
+.badge {
+  background: linear-gradient(135deg, #1f1f1f, #2d2d2d);
+  padding: 8px 18px;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #aaa;
+  letter-spacing: 1px;
+}
+
+.heroSobre h1 {
+  font-size: 52px;
+  line-height: 1.1;
+  margin: 25px 0;
+  font-weight: 600;
+}
+
+.heroSobre p {
+  font-size: 20px;
+  color: #bcbcbc;
+  line-height: 1.6;
+}
+
+/* PROFILE */
+
+.profileApresentation {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 160px;
+}
+
+.imgPhoto {
+  width: 320px;
+  height: 320px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #1a1a1a, #242424);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.textBio h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.textBio p {
+  color: #bcbcbc;
+  margin-bottom: 18px;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.highlight {
+  color: white;
+  font-weight: 500;
+}
+
+/* HISTORY */
+
+.Explication h2 {
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.Explication p {
+  color: #bcbcbc;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+/* VALUES */
+
+.values {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.valueCard {
+  background: linear-gradient(145deg, #151515, #1d1d1d);
+  padding: 30px;
+  border-radius: 18px;
+  transition: 0.4s;
+  border: 1px solid transparent;
+}
+
+.valueCard:hover {
+  transform: translateY(-8px);
+  border: 1px solid #2a2a2a;
+}
+
+.valueCard h3 {
+  margin-bottom: 10px;
+}
+
+.valueCard span {
+  color: #9c9c9c;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1000px) {
+  .profileApresentation {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .imgPhoto {
+    margin: auto;
+  }
+
+  .values {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heroSobre h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .values {
+    grid-template-columns: 1fr;
+  }
+
+  .heroSobre h1 {
+    font-size: 32px;
+  }
+
+  .container {
+    width: 92%;
+  }
+}

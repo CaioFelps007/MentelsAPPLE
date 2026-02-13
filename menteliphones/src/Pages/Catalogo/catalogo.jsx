@@ -204,6 +204,14 @@ function Catalogo() {
             </div>
           </section>
         </section>
+        <footer className="footer">
+          <div className="container footerInner">
+            <span className="muted">
+              © {new Date().getFullYear()} Pimentel iPhones
+            </span>
+            <span className="muted">Feito com ❤️</span>
+          </div>
+        </footer>
       </main>
     </>
   );
